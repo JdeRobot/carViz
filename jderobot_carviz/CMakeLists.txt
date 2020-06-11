@@ -1,7 +1,11 @@
 
-cmake_minimum_required(VERSION 3.2)
-project(carviz)
+cmake_minimum_required(VERSION 2.8.3)
+project(jderobot_carviz)
 set(CMAKE_BUILD_TYPE Debug)
+
+find_package(catkin REQUIRED)
+catkin_package()
+
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_STANDARD 14)
@@ -12,7 +16,9 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic -Wunused-parameter)
 endif()
 
-SET(CMAKE_PREFIX_PATH "${CMAKE_PREFIX_PATH} /home/pankhuri/catkin_ws/install;/opt/ros/melodic")
+
+SET(CMAKE_PREFIX_PATH "${CMAKE_PREFIX_PATH} ")
+
 	SET(SOURCE main.cpp  
 				    robot/actuators.cpp robot/robot.cpp robot/sensors.cpp  
 			        gui/gui.cpp gui/threadupdategui.cpp
