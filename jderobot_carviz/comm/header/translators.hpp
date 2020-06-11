@@ -1,51 +1,23 @@
 #include <ros/ros.h>
 #include <cv.h>
 
-<<<<<<< HEAD
-#include </opt/jderobot/include/jderobot/types/laserData.h>
-#include <sensor_msgs/LaserScan.h>
-
-
-#include </opt/jderobot/include/jderobot/types/pose3d.h>
-=======
 #include <jderobot/types/laserData.h>
 #include <sensor_msgs/LaserScan.h>
-
-
 #include <jderobot/types/pose3d.h>
->>>>>>> b1916f46eef1fe7ac7462c14513bb77767505551
 #include <vector>
 #include <nav_msgs/Odometry.h>
 
-
-<<<<<<< HEAD
-#include </opt/jderobot/include/jderobot/types/image.h>
-=======
 #include <jderobot/types/image.h>
->>>>>>> b1916f46eef1fe7ac7462c14513bb77767505551
 #include "image_transport/image_transport.h"
 #include "cv_bridge/cv_bridge.h"
 #include "sensor_msgs/image_encodings.h"
 
-<<<<<<< HEAD
-#include </opt/jderobot/include/jderobot/types/rgbd.h>
-
-
-#include </opt/jderobot/include/jderobot/types/cmdvel.h>
-#include <geometry_msgs/Twist.h>
-
-#include <kobuki_msgs/BumperEvent.h>
-#include </opt/jderobot/include/jderobot/types/bumperData.h>
-=======
 #include <jderobot/types/rgbd.h>
-
 
 #include <jderobot/types/cmdvel.h>
 #include <geometry_msgs/Twist.h>
-
 #include <kobuki_msgs/BumperEvent.h>
 #include <jderobot/types/bumperData.h>
->>>>>>> b1916f46eef1fe7ac7462c14513bb77767505551
 
 
 namespace Comm {
