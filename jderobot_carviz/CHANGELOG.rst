@@ -2,6 +2,9 @@
 Changelog for package jderobot_carviz
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.1.3 (2020-06-11)
 ------------------
 
